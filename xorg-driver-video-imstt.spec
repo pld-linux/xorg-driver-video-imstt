@@ -1,12 +1,12 @@
 Summary:	X.org video driver for Integrated Micro Solutions Twin Turbo 128 chips
 Summary(pl):	Sterownik obrazu X.org dla uk³adów Micro Solutions Twin Turbo 128
 Name:		xorg-driver-video-imstt
-Version:	1.0.0.3
+Version:	1.0.0.5
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/driver/xf86-video-imstt-%{version}.tar.bz2
-# Source0-md5:	094af2728f69019e6d25e9e5bef6c312
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-video-imstt-%{version}.tar.bz2
+# Source0-md5:	b08551d818ea2d766eeaa9500714a669
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_libdir}/xorg/modules/drivers/imstt_drv.so
 %{_mandir}/man4/imstt.4*
