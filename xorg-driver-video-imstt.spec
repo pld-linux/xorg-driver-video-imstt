@@ -1,5 +1,5 @@
 Summary:	X.org video driver for Integrated Micro Solutions Twin Turbo 128 chips
-Summary(pl):	Sterownik obrazu X.org dla uk³adów Micro Solutions Twin Turbo 128
+Summary(pl.UTF-8):   Sterownik obrazu X.org dla ukÅ‚adÃ³w Micro Solutions Twin Turbo 128
 Name:		xorg-driver-video-imstt
 Version:	1.1.0
 Release:	0.1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 X.org video driver for Integrated Micro Solutions Twin Turbo 128
 chips.
 
-%description -l pl
-Sterownik obrazu X.org dla uk³adów Micro Solutions Twin Turbo 128.
+%description -l pl.UTF-8
+Sterownik obrazu X.org dla ukÅ‚adÃ³w Micro Solutions Twin Turbo 128.
 
 %prep
 %setup -q -n xf86-video-imstt-%{version}
